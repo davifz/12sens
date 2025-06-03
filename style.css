@@ -1,1 +1,57 @@
+body{
+    background: #FEFEFB;
+    display: flex;
+    padding-top: 47px;
+    flex-direction: column;
+    align-items: center;
+    gap: 68px;
+}
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+ul {
+  background-color: #FEFEFB;
+  background-size: cover;
+  list-style-type: none;
+  display: flex;
+  padding: 10px 3px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-family: "Montserrat Alternates";
+  font-size: 20px;
+   font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.12px;
+}
+
+li a:hover {
+  background-color: #b9b6a8;
+}
+
+li{
+  color: #000;
+  font-family: "Montserrat Alternates";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.12px;
+ 
+}
