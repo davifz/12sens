@@ -55,3 +55,12 @@ li{
   letter-spacing: -1.12px;
  
 }
+
+footer {
+  background-color: #001f3f;
+  color: #ccc;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+  width: 100%;
+}
