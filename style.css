@@ -62,10 +62,6 @@ nav li img {
     padding: 0;
 }
 
-nav li:first-child a[href="#inicio"] + a {
-    display: none;
-}
-
 nav li a {
     text-decoration: none;
     color: #555;
