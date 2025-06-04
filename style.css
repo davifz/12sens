@@ -1,59 +1,96 @@
-body{
-    background: #FEFEFB;
-    display: flex;
-    padding-top: 47px;
-    flex-direction: column;
-    align-items: center;
-    gap: 68px;
-}
-
-.layout {
+body {
+  background: #FEFEFB;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 ul {
   background-color: #FEFEFB;
-  background-size: cover;
   list-style-type: none;
   display: flex;
-  padding: 10px 3px;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
+  justify-content: center;
+  padding: 15px 0;
+  gap: 20px;
   position: sticky;
   top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #ccc;
+}
+
+li {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -1.12px;
 }
 
 li a {
-  display: block;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 50px;
   text-decoration: none;
-  font-family: "Montserrat Alternates";
-  font-size: 20px;
-   font-style: italic;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -1.12px;
+  color: black;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
 }
 
 li a:hover {
   background-color: #b9b6a8;
+  border-radius: 5px;
 }
 
-li{
-  color: #000;
-  font-family: "Montserrat Alternates";
+.layout {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.layout h1,
+.layout h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.layout p {
   font-size: 18px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -1.12px;
- 
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.produto {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.produto:hover {
+  transform: translateY(-5px);
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.produto p {
+  font-size: 16px;
 }
 
 footer {
@@ -62,5 +99,6 @@ footer {
   text-align: center;
   padding: 1.5rem;
   margin-top: auto;
-  width: 100%;
+  border-top: 1px solid #ccc;
 }
+
