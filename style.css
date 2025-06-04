@@ -365,7 +365,7 @@ footer {
         margin-bottom: 10px;
     }
 
-    .inicio h1, .page-content h1 {
+    #inicio h1, .page-content h1 {
         font-size: 2.5rem;
     }
 
