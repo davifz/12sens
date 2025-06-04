@@ -170,9 +170,10 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.linkedin-button-container {
+.button-container {
     text-align: center;
-    margin: 30px auto 60px auto;
+    margin: 20px auto;
+    max-width: 300px;
 }
 
 .linkedin-button {
@@ -187,6 +188,7 @@ main {
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
+    min-width: 180px;
 }
 
 .linkedin-button:hover {
@@ -194,12 +196,7 @@ main {
     color: #fff;
 }
 
-.instagram-button-container {
-    text-align: center;
-    margin: 30px auto 60px auto;
-}
-
-.instagram-button {
+.social-button {
     display: inline-block;
     background-color: transparent;
     color: #555;
@@ -209,11 +206,12 @@ main {
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease; 
+    transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
+    min-width: 180px;
 }
 
-.instagram-button:hover {
+.social-button:hover {
     background-color: #555;
     color: #fff;
 }
