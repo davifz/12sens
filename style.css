@@ -1,6 +1,5 @@
-/* General Resets and Base Styles */
 body {
-    background: #FEFEFB;
+    background: #ffffff;
     margin: 0;
     padding: 0;
     font-family: "Arial", sans-serif;
@@ -10,7 +9,6 @@ body {
     color: #333;
 }
 
-/* Container for Content Width */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -18,10 +16,9 @@ body {
     padding: 0 15px;
 }
 
-/* Header */
 header {
-    background-color: #FEFEFB;
-    border-bottom: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
@@ -39,7 +36,6 @@ header .container {
     width: 100%;
 }
 
-/* Navigation */
 nav ul {
     background-color: transparent;
     list-style-type: none;
@@ -78,21 +74,18 @@ nav li a {
     display: block;
 }
 
-nav li a:hover,
-nav li a.active {
+nav li a:hover {
     background-color: #dcd7c9;
     color: #222;
     border-radius: 5px;
 }
 
-/* Main Content Area */
 main {
     flex-grow: 1;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 
-/* Generic Section Styles */
 section {
     padding: 60px 0;
     text-align: center;
@@ -111,7 +104,6 @@ section p {
     line-height: 1.7;
 }
 
-/* Intro/Hero Section (#inicio) */
 #inicio {
     padding: 60px 20px;
     background-color: #FEFEFB;
@@ -124,7 +116,6 @@ section p {
     color: #222;
 }
 
-/* Brands Section */
 .marcas {
     background-color: #222;
     padding: 50px 20px;
@@ -173,11 +164,10 @@ footer {
     text-align: center;
     padding: 1.5rem;
     margin-top: auto;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #ffffff;
     font-size: 0.9rem;
 }
 
-/* Basic Responsiveness (Media Queries) */
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
@@ -196,20 +186,20 @@ footer {
         margin-bottom: 10px;
     }
 
-    header h1 {
+    section h2 {
         font-size: 2rem;
     }
 
-    nav li {
-        font-size: 0.9rem;
+    section p {
+        font-size: 1rem;
     }
 
     #inicio h1 {
         font-size: 2.5rem;
     }
 
-    section h2 {
-        font-size: 2rem;
+    nav li {
+        font-size: 0.9rem;
     }
 
     .marcas-grid img {
