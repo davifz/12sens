@@ -80,31 +80,15 @@ main {
     flex-grow: 1;
     padding-top: 20px;
     padding-bottom: 40px;
+    /* Certifique-se de que o main não está limitando a centralização do container */
+    /* text-align: center; -- NÃO ADICIONE AQUI, pois pode afetar outros elementos */
 }
 
-.page-content {
-    padding: 80px 0;
-    text-align: center;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.page-content h1 {
-    font-size: 3rem;
-    margin-bottom: 30px;
-    color: #222;
-}
-
-.page-content p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
+/* Estilo da seção "Inicio" na página inicial */
 .inicio {
     padding: 60px 20px;
     background-color: #FEFEFB;
+    text-align: center; /* Garante que o texto dentro desta seção esteja centralizado */
 }
 
 .inicio h1 {
@@ -113,11 +97,18 @@ main {
     color: #222;
 }
 
+.inicio p { /* Adicione ou ajuste esta regra para os parágrafos da seção de início */
+    max-width: 800px; /* Mantém a largura máxima para legibilidade */
+    margin-left: auto; /* Centraliza o bloco de parágrafo */
+    margin-right: auto; /* Centraliza o bloco de parágrafo */
+}
+
+
 .marcas {
     background-color: #222;
     padding: 50px 20px;
     border-radius: 10px;
-    text-align: center;
+    text-align: center; /* Já está aqui, o que é bom para o h2 */
     margin: 60px auto;
     max-width: 1000px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -133,7 +124,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-around; /* Mantém as imagens espaçadas */
     align-items: center;
     gap: 20px;
     overflow-x: auto;
@@ -157,12 +148,13 @@ main {
 footer {
     background-color: #ffffff;
     color: #000000;
-    text-align: center;
+    text-align: center; /* Já está aqui, o que é bom para o texto do rodapé */
     padding: 1.5rem;
     margin-top: auto;
     border-top: 1px solid #e0e0e0;
     font-size: 0.9rem;
 }
+
 
 @media (max-width: 768px) {
     header .container {
