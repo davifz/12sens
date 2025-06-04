@@ -115,6 +115,7 @@ section p {
 #inicio {
     padding: 60px 20px;
     background-color: #FEFEFB;
+    scroll-margin-top: 100px; /* AJUSTE AQUI: Cria uma margem para o scroll */
 }
 
 #inicio h1 {
