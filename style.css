@@ -18,7 +18,7 @@ body {
 
 header {
     background-color: #ffffff;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0; /* Borda visível */
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
@@ -82,31 +82,36 @@ main {
     padding-bottom: 40px;
 }
 
-section {
-    padding: 60px 0;
+/* Estilo para seções gerais (como quem somos, catálogo, etc.) */
+.page-content { /* Nova classe para conteúdo principal de páginas internas */
+    padding: 80px 0; /* Mais padding para o conteúdo principal */
     text-align: center;
+    max-width: 900px; /* Largura máxima para o texto */
+    margin: 0 auto; /* Centraliza a seção */
 }
 
-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
+.page-content h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
     color: #222;
 }
 
-section p {
+.page-content p {
     font-size: 1.1rem;
-    max-width: 800px;
-    margin: 0 auto 20px auto;
     line-height: 1.7;
+    text-align: justify; /* Justifica o texto para melhor leitura */
+    margin-bottom: 20px;
 }
 
-#inicio {
+
+/* Estilo da seção "Inicio" na página inicial */
+.inicio {
     padding: 60px 20px;
     background-color: #FEFEFB;
-    scroll-margin-top: 100px;
+    /* scroll-margin-top removido daqui, não é mais necessário em página inicial */
 }
 
-#inicio h1 {
+.inicio h1 {
     font-size: 3.5rem;
     margin-bottom: 25px;
     color: #222;
@@ -159,7 +164,7 @@ footer {
     text-align: center;
     padding: 1.5rem;
     margin-top: auto;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #e0e0e0; /* Borda visível */
     font-size: 0.9rem;
 }
 
@@ -181,16 +186,17 @@ footer {
         margin-bottom: 10px;
     }
 
-    section h2 {
+    /* Ajustes para títulos e parágrafos em telas pequenas */
+    .inicio h1, .page-content h1 { /* Aplica-se a h1 da página inicial e h1 das páginas de conteúdo */
+        font-size: 2.5rem;
+    }
+
+    section h2, .page-content h2 { /* Aplica-se a h2 em seções gerais e h2 das páginas de conteúdo */
         font-size: 2rem;
     }
 
-    section p {
+    section p, .page-content p {
         font-size: 1rem;
-    }
-
-    #inicio h1 {
-        font-size: 2.5rem;
     }
 
     nav li {
