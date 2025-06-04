@@ -128,7 +128,7 @@ section p {
     font-size: 2rem;
 }
 
-.marcas-grid {
+.marcas-ofer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -139,7 +139,7 @@ section p {
     padding: 20px;
 }
 
-.marcas-grid img {
+.marcas-ofer img {
     max-height: 80px;
     width: auto;
     border-radius: 8px;
@@ -149,11 +149,10 @@ section p {
     transition: transform 0.3s ease;
 }
 
-.marcas-grid img:hover {
+.marcas-ofer img:hover {
     transform: scale(1.05);
 }
 
-/* Footer */
 footer {
     background-color: #ffffff;
     color: #000000;
@@ -198,7 +197,7 @@ footer {
         font-size: 0.9rem;
     }
 
-    .marcas-grid img {
+    .marcas-ofer img {
         max-width: 120px;
         padding: 8px;
     }
