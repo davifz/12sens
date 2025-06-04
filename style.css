@@ -142,6 +142,34 @@ main {
     transform: scale(1.05);
 }
 
+.trabalhe-conosco-image {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.trabalhe-conosco-image img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #555;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quem-somos-image {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.quem-somos-image img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #555;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     background-color: #ffffff;
     color: #000000;
