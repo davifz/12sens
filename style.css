@@ -80,15 +80,12 @@ main {
     flex-grow: 1;
     padding-top: 20px;
     padding-bottom: 40px;
-    /* Certifique-se de que o main não está limitando a centralização do container */
-    /* text-align: center; -- NÃO ADICIONE AQUI, pois pode afetar outros elementos */
 }
 
-/* Estilo da seção "Inicio" na página inicial */
 .inicio {
     padding: 60px 20px;
     background-color: #FEFEFB;
-    text-align: center; /* Garante que o texto dentro desta seção esteja centralizado */
+    text-align: center;
 }
 
 .inicio h1 {
@@ -97,10 +94,10 @@ main {
     color: #222;
 }
 
-.inicio p { /* Adicione ou ajuste esta regra para os parágrafos da seção de início */
-    max-width: 800px; /* Mantém a largura máxima para legibilidade */
-    margin-left: auto; /* Centraliza o bloco de parágrafo */
-    margin-right: auto; /* Centraliza o bloco de parágrafo */
+.inicio p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -108,7 +105,7 @@ main {
     background-color: #222;
     padding: 50px 20px;
     border-radius: 10px;
-    text-align: center; /* Já está aqui, o que é bom para o h2 */
+    text-align: center;
     margin: 60px auto;
     max-width: 1000px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -124,7 +121,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around; /* Mantém as imagens espaçadas */
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
     overflow-x: auto;
@@ -148,11 +145,50 @@ main {
 footer {
     background-color: #ffffff;
     color: #000000;
-    text-align: center; /* Já está aqui, o que é bom para o texto do rodapé */
+    text-align: center;
     padding: 1.5rem;
     margin-top: auto;
     border-top: 1px solid #e0e0e0;
     font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-basis: 60%;
+    max-width: 60%;
+    text-align: left;
+}
+
+.footer-left img {
+    max-height: 60px;
+    width: auto;
+    display: block;
+}
+
+.footer-description {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.footer-right {
+    text-align: right;
+    flex-basis: 35%;
+    max-width: 35%;
+}
+
+.footer-right p {
+    margin: 0;
 }
 
 
@@ -193,5 +229,22 @@ footer {
     .marcas-ofer img {
         max-width: 120px;
         padding: 8px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-left, .footer-right {
+        flex-basis: 100%;
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-left img {
+        max-height: 50px;
     }
 }
