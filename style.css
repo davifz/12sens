@@ -82,25 +82,25 @@ main {
     padding-bottom: 40px;
 }
 
-.inicio {
+#inicio {
     padding: 60px 20px;
     background-color: #FEFEFB;
     text-align: center;
 }
 
-.inicio h1 {
+#inicio h1 {
     font-size: 3.5rem;
     margin-bottom: 25px;
     color: #222;
 }
 
-.inicio p {
+#inicio p {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.marcas {
+#marcas {
     background-color: #222;
     padding: 50px 20px;
     border-radius: 10px;
@@ -110,13 +110,13 @@ main {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.marcas h2 {
+#marcas h2 {
     color: #fff;
     margin-bottom: 40px;
     font-size: 2rem;
 }
 
-.marcas-ofer {
+#marcas-ofer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -127,7 +127,7 @@ main {
     padding: 20px;
 }
 
-.marcas-ofer img {
+#marcas-ofer img {
     max-height: 80px;
     width: auto;
     border-radius: 8px;
@@ -137,17 +137,17 @@ main {
     transition: transform 0.3s ease;
 }
 
-.marcas-ofer img:hover {
+#marcas-ofer img:hover {
     transform: scale(1.05);
 }
 
-.trabalhe-conosco-image {
+#trabalhe-conosco-image {
     text-align: center;
     margin: 40px auto;
     max-width: 800px;
 }
 
-.trabalhe-conosco-image img {
+#trabalhe-conosco-image img {
     max-width: 100%;
     height: auto;
     border: 5px solid #555;
@@ -155,13 +155,13 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.quem-somos-image {
+#quem-somos-image {
     text-align: center;
     margin: 40px auto;
     max-width: 800px;
 }
 
-.quem-somos-image img {
+#quem-somos-image img {
     max-width: 100%;
     height: auto;
     border: 5px solid #555;
@@ -169,13 +169,13 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.button-container {
+#button-container {
     text-align: center;
     margin: 20px auto;
     max-width: 300px;
 }
 
-.linkedin-button {
+#linkedin-button {
     display: inline-block;
     background-color: transparent;
     color: #555;
@@ -190,12 +190,12 @@ main {
     min-width: 180px;
 }
 
-.linkedin-button:hover {
+#linkedin-button:hover {
     background-color: #555;
     color: #fff;
 }
 
-.social-button {
+#social-button {
     display: inline-block;
     background-color: transparent;
     color: #555;
@@ -210,7 +210,7 @@ main {
     min-width: 180px;
 }
 
-.social-button:hover {
+#social-button:hover {
     background-color: #555;
     color: #fff;
 }
@@ -225,7 +225,7 @@ footer {
     font-size: 0.9rem;
 }
 
-.footer-content {
+#footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -233,7 +233,7 @@ footer {
     text-align: left;
 }
 
-.footer-left {
+#footer-left {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -242,40 +242,40 @@ footer {
     text-align: left;
 }
 
-.footer-left img {
+#footer-left img {
     max-height: 60px;
     width: auto;
     display: block;
 }
 
-.footer-description {
+#footer-description {
     margin: 0;
     font-size: 0.9rem;
     color: #555;
 }
 
-.footer-right {
+#footer-right {
     text-align: right;
     flex-basis: 35%;
     max-width: 35%;
 }
 
-.footer-right p {
+#footer-right p {
     margin: 0;
 }
 
-.catalogo-section {
+#catalogo-section {
     padding: 60px 0;
     text-align: center;
 }
 
-.catalogo-section h1 {
+#catalogo-section h1 {
     font-size: 3rem;
     margin-bottom: 30px;
     color: #333;
 }
 
-.catalogo-section p {
+#catalogo-section p {
     font-size: 1.1rem;
     line-height: 1.7;
     max-width: 900px;
@@ -283,7 +283,7 @@ footer {
     color: #555;
 }
 
-.catalogo-category-title {
+#catalogo-category-title {
     font-size: 2.5rem;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -291,7 +291,7 @@ footer {
     text-align: center;
 }
 
-.product-grid {
+#product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
@@ -301,7 +301,7 @@ footer {
     margin: 0 auto;
 }
 
-.product-card {
+#product-card {
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
@@ -316,12 +316,12 @@ footer {
     color: #333;
 }
 
-.product-card:hover {
+#product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-.product-card img {
+#product-card img {
     max-width: 100%;
     height: 180px;
     object-fit: contain;
@@ -331,7 +331,7 @@ footer {
     margin-right: auto;
 }
 
-.product-card h3 {
+#product-card h3 {
     font-size: 1.3rem;
     color: #333;
     margin-top: 10px;
@@ -339,7 +339,7 @@ footer {
     font-weight: 600;
 }
 
-.product-card .current-price {
+#product-card .current-price {
     font-size: 1.4rem;
     color: #007bff;
     font-weight: bold;
@@ -381,52 +381,52 @@ footer {
         font-size: 0.9rem;
     }
 
-    .marcas-ofer img {
+    #marcas-ofer img {
         max-width: 120px;
         padding: 8px;
     }
 
-    .footer-content {
+    #footer-content {
         flex-direction: column;
         text-align: center;
         gap: 20px;
     }
 
-    .footer-left, .footer-right {
+    #footer-left, .footer-right {
         flex-basis: 100%;
         max-width: 100%;
         text-align: center;
         justify-content: center;
     }
 
-    .footer-left img {
+    #footer-left img {
         max-height: 50px;
     }
     
-    .catalogo-section h1 {
+    #catalogo-section h1 {
         font-size: 2.5rem;
     }
 
-    .catalogo-category-title {
+    #catalogo-category-title {
         font-size: 2rem;
     }
 
-    .product-grid {
+    #product-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 20px;
     }
 
-    .product-card img {
+    #product-card img {
         height: 150px;
     }
 }
 
 @media (max-width: 480px) {
-    .product-grid {
+    #product-grid {
         grid-template-columns: 1fr;
     }
 
-    .product-card img {
+    #product-card img {
         height: 120px; 
     }
 }
