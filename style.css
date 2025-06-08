@@ -175,21 +175,6 @@ main {
     max-width: 300px;
 }
 
-.linkedin-botao {
-    display: inline-block;
-    background-color: transparent;
-    color: #555;
-    border: 2px solid #555;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    cursor: pointer;
-    min-width: 180px;
-}
-
 .botao-redes {
     display: inline-block;
     background-color: transparent;
